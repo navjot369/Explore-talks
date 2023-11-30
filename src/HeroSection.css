@@ -1,0 +1,65 @@
+.hero-container {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6) url('./Images/hero-background.avif');
+    background-blend-mode: darken;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.navbar-container {
+    width: 100%;
+    padding: 10px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(225, 225, 225, 0.2);
+}
+.logo-container {
+    font-size: 2rem;
+}
+.menu-container {
+    display: flex;
+}
+.menu-links {
+    color: white;
+    padding: 0 20px;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+.hero-main-cont {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+}
+.hero-inner-cont {
+    margin-left: 100px;
+}
+.hero-inner-cont * {
+    margin: 20px 0;
+}
+.tagline {
+    color: white;
+    font-size: 5rem;
+    font-weight: 500;
+}
+.tagDesp {
+    color: white;
+    font-size: 2rem;
+}
+.explore {
+    color: red;
+}
+.explore-more-button button{
+    padding: 10px 40px;
+    background-color: red;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 50px;
+}
